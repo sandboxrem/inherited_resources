@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency("responders", "~> 2.1.0")
-  s.add_dependency("has_scope",  "~> 0.6.0")
+  s.add_dependency("responders", "~> 2.4.0")
+  s.add_dependency("has_scope",  "~> 0.7.1")
 end
